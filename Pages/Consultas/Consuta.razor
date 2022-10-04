@@ -1,0 +1,94 @@
+@page "/Consulta"
+
+<EditForm Model="Datos">
+   <DataAnnotationsValidator />
+  
+  <div class="card">
+
+    <div class="card-header">
+         
+         <h3>Consulta De Aporte  </h3>
+    </div>
+
+      
+    <div class="card-body">
+
+       <div class="input-group d-flex align-items-end">
+                    <select class="form-control col-2" @bind="Filtro">
+                        <option value="1"> Persona</option>
+                        <option value="2"> AporteId</option>
+                        
+                    </select>
+
+                    <div class="flex-fill mx-2">
+                    
+                        <input type="text" class="form-control" @bind="Criterio" />
+                    </div>
+
+                    <button type="button" class="btn btn-warning" @onclick="Buscar">
+                        <i class="oi oi-magnifying-glass mr-2" /> Buscar
+                    </button>
+                </div>
+
+          <table class="table table-secondary">
+            <thead class="thead-dark">
+                <tr class="table-info">
+                    <th> AporteId</th>
+                    <th> Persona</th>
+                    <th>Monto</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Datos)
+                {
+                    <tr>
+                        <td>@item.AporteId</td>
+                        <td>@item.Persona</td>
+                        <td>@item.Monto</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <div class="card-footer">
+
+         <label> Conteo: </label>    
+
+       
+    </div>
+
+
+  </div>
+
+  
+    
+</EditForm>
+
+@code {
+
+    public Aporte aporte{ set; get; } = new Aporte();
+    public string Filtro { get; set; }
+    public string Criterio { get; set; }
+    public List<Aporte> Datos{ get; set; } = new List<Aporte>();
+
+     [Inject]
+    private AporteBLL aporteBLL { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+      
+    }
+
+    private void Buscar()
+    {
+
+        Datos = aporteBLL.Getaporte( o => true);
+
+    }
+    
+
+}

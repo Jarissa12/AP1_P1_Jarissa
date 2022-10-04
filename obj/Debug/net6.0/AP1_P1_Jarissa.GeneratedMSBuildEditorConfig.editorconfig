@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AP1_P1_Jarissa
 build_property.RootNamespace = AP1_P1_Jarissa
-build_property.ProjectDir = C:\Users\nicole\Desktop\Parcial 1\AP1_P1_Jarissa\
+build_property.ProjectDir = c:\Users\nicole\Desktop\Parcial 1\AP1_P1_Jarissa\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nicole\Desktop\Parcial 1\AP1_P1_Jarissa
+build_property.MSBuildProjectDirectory = c:\Users\nicole\Desktop\Parcial 1\AP1_P1_Jarissa
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/App.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Consultas/Consuta.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Consultas/Consuta.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFzXENvbnN1dGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Counter.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Index.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Registros/Registro.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Registros/Registro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXFJlZ2lzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/SurveyPrompt.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/_Imports.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/MainLayout.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7l7qvgejgy
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/NavMenu.razor]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3vt4guvbqn
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Error.cshtml]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/_Host.cshtml]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/_Layout.cshtml]
+[c:/Users/nicole/Desktop/Parcial 1/AP1_P1_Jarissa/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,7 +1,12 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using AP1_P1_Jarissa.DAL;
+using AP1_P1_Jarissa.BLL;
 using Microsoft.EntityFrameworkCore;
+
+
+
+//using Radzen;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,16 +15,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
+var ConStr = builder.Configuration.GetConnectionString("ConStr");
+
+builder.Services.AddDbContext<Contexto>(options =>
+    options.UseSqlite(ConStr)
+
+);
+
+
+
+builder.Services.AddScoped<AporteBLL>();
 
 var app = builder.Build();
 
 
-var ConStr = builder.Configuration.GetConnectionString("ConStr");
 
-builder.Services.AddDbContext<Contexto>(options => 
-options.UseSqlite(ConStr)
 
-);
+
+//builder.Services.AddScoped<NotificationService>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
